@@ -1,0 +1,91 @@
+h3 {
+  font-size: 3.5vw;
+}
+p {
+  font-size: 2vw;
+  /* line-height: 1.47059 !important; */
+  font-weight: 400;
+  text-align: justify;
+}
+ul li {
+  font-size: 1.25vw !important;
+  line-height: 2 !important;
+  font-weight: 400;
+}
+
+.aviso {
+  padding: 50px 20px !important;
+  background: linear-gradient(-45deg, #19deea, #007bff);
+  /* background: linear-gradient(-45deg, #AD4F96, #00A0A7, #4BA72C, #E45B4B, #F2A50B, #e6e026); */
+}
+.aviso p {
+  color: #fff;
+  max-width: 800px !important;
+  margin: auto !important;
+  font-size: 1.35vw;
+}
+
+.objetivos, .requisitos, .responsabilidades, .processo {
+  background-size: 100% 100% !important;
+  width: 100vw;
+  height: auto;
+ }
+.objetivos {
+  width: 100vw;
+  height: 40vw;
+}
+.objetivos img {
+  width: 40vw;
+  height: 40vw;
+  background: url('./img/objetivo2.png') no-repeat center/contain;
+}
+.objetivos .texto {
+  width: 50vw;
+  padding: 50px;
+}
+.objetivos .texto h3 {
+  color: rgb(218, 75, 32);
+}
+.objetivos .texto p {
+  color: grey;
+}
+
+.requisitos {
+  background: url('./img/requisitos.png') no-repeat center center;
+}
+.requisitos .texto {
+  margin-right: auto;
+  margin-left: 5vw;
+  width: 45vw;
+  padding: 20px 20px 100px 50px;
+}
+.requisitos .texto h3 {
+  color: rgb(78, 160, 79);
+}
+.requisitos .texto p {
+  color: black;
+}
+
+.responsabilidades {
+  background: url('./img/responsabilidades.jpg') no-repeat center/cover;
+  width: 100vw;
+  height: 31.25vw;
+  position: relative;
+}
+.responsabilidades .texto {
+  position: absolute;
+  left: 58%;
+  top: 0%;
+  width: 35%;
+  padding: 30px 10px;
+}
+.responsabilidades .texto h3 {
+  color: rgb(161, 62, 16);
+}
+.responsabilidades .texto li {
+  color: rgb(114, 110, 110);
+}
+
+.processo {
+  background: url('./img/processo (1).png') no-repeat center center;
+}
