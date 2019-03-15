@@ -27,11 +27,11 @@ ul li {
 
 .objetivos, .requisitos, .responsabilidades, .processo {
   background-size: 100% 100% !important;
-  width: 100vw;
+  width: 100%;
   height: auto;
  }
 .objetivos {
-  width: 100vw;
+  width: 100%;
   height: 40vw;
 }
 .objetivos img {
@@ -68,7 +68,7 @@ ul li {
 
 .responsabilidades {
   background: url('./img/responsabilidades.jpg') no-repeat center/cover;
-  width: 100vw;
+  width: 100%;
   height: 31.25vw;
   position: relative;
 }
