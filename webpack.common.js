@@ -23,7 +23,7 @@ module.exports = {
       rules: [
         {
           test: /\.(woff|woff2|eot|ttf|otf|png|jpg|jpeg|gif|svg)$/,
-          use: [{ loader: 'url-loader', options: { limit: 250000, name: '[name].[hash:10].[ext]', publicPath: '/' }}]
+          use: [{ loader: 'url-loader', options: { limit: 1000000, name: '[name].[hash:10].[ext]', publicPath: '/' }}]
         },
         {
           test: /\.js$/,
