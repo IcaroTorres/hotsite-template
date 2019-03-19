@@ -5,6 +5,12 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+@media (max-width: 900px){
+  body {
+    margin-top: 7.5vw;
+  }
+}
 h2 {
   font: bolder italic 3vw 'Compacta';
   color: white;
@@ -21,8 +27,8 @@ ul li {
   line-height: 2;
   font-weight: bold;
 }
-body { 
-  margin-top: 106px;
+.navbar{
+  box-shadow: 0 0 20px 5px rgba(0,0,0,0.5);
 }
 .navbar, #apresentacao, #responsabilidades, #contatos {
   background-color: #064b66;
@@ -34,23 +40,29 @@ body {
 }
 .bar-link {
   color: white;
-  font: bold italic 1.25vw "Compacta";
-  margin: auto 20px;
+  font: bold italic 1.1vw "Compacta";
+  margin: auto 1vw;
   text-transform: uppercase;
 }
 .bar-link:hover, .active .bar-link {
   text-decoration: none;
   color:  rgba(255, 174, 0, 0.918);
 }
-
+#logo {
+  width: 10vw;
+  transform: scale(1.4);
+  height: auto;
+}
+#logo:hover {
+  filter: invert(25%) sepia(100%);
+}
 #banner {
   width: 100%;
-  height: auto;
   text-align: center;
 }
 
 #apresentacao, #objetivos, #requisitos1, #requisitos2, #responsabilidades, #processo {
-  padding: 40px 10% !important;
+  padding: 5% !important;
   width: 100%;
   height: auto;
  }
@@ -114,12 +126,24 @@ body {
 #responsabilidades ul {
   margin-top: 20px;
 }
-#processo {
-  /* background: url('./img/PROCESSO.png') no-repeat center center; */
-}
+
 footer {
   background-color: rgba(255, 174, 0, 0.918);
   color: #064b66;
   padding: 20px 10% 10px !important;
+}
+
+#inscreva-se{
+  width: 45%;
+  height: auto;
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all .25s ease;
+}
+#inscreva-se:hover {
+  transform: translateX(-50%) scale(1.1);
+  filter: brightness(2);
 }
 
