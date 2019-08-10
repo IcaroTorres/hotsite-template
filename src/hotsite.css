@@ -4,12 +4,11 @@
 }
 body {
   font-family: 'Open Sans', sans-serif;
+  margin-top: 80px;
 }
 
 @media (max-width: 900px){
-  body {
-    margin-top: 7.5vw;
-  }
+  /* breakpoint styles here */
 }
 h2 {
   font: bolder italic 3vw 'Compacta';
@@ -30,7 +29,7 @@ ul li {
 .navbar{
   box-shadow: 0 0 20px 5px rgba(0,0,0,0.5);
 }
-.navbar, #apresentacao, #responsabilidades, #contatos {
+.navbar, #section__sample, #responsabilidades, #contatos {
   background-color: #064b66;
 }
 .navbar, .navbar ul {
@@ -49,7 +48,8 @@ ul li {
   color:  rgba(255, 174, 0, 0.918);
 }
 #logo {
-  width: 10vw;
+  width: 4vw;
+  min-width: 50px;
   transform: scale(1.4);
   height: auto;
 }
@@ -61,16 +61,17 @@ ul li {
   text-align: center;
 }
 
-#apresentacao, #objetivos, #requisitos1, #requisitos2, #responsabilidades, #processo {
+.section__sample {
   padding: 5% !important;
   width: 100%;
   height: auto;
+  background-color: #7592e9;
  }
-#apresentacao p {
-  color: #fff;
+.section__sample p {
+  color: #0528c4;
   padding: 20px;
 }
-#baixar-edital {
+.btn__sample {
   text-transform: uppercase;
   font: 800 normal 1.2vw "Open Sans", sans-serif;
   color: #064b66;
@@ -80,51 +81,11 @@ ul li {
   text-align: center;
   transition: all .3s ease-in;
 }
-#baixar-edital:hover {
+.btn__sample:hover {
   text-decoration: none;
   color: white;
   border: 1px solid;
   background-color: transparent;
-}
-
-#objetivos {
-  width: 100%;
-  background-color:  rgba(255, 174, 0, 0.918);
-}
-#objetivos h2 {
-  color: black;
-}
-#objetivos p {
-  color: black; padding: 20px;
-}
-#requisitos1, #requisitos2 {
-  width: 100%;
-  background-color: rgb(255, 145, 0);
-}
-#requisitos1 h2 {
-  color: black
-}
-#requisitos1 p {
-  color: black;
-  padding: 20px;
-}
-#requisitos1 ul, #requisitos2 ul, #responsabilidades ul {margin-left: 20px;}
-
-#requisitos2 {
-  background-color: rgb(224, 48, 4);
-}
-#requisitos2 h2 {
-  color: white;
-}
-#requisitos2 p {
-  color: white;
-  padding: 20px;
-}
-
-#requisitos2 li, #responsabilidades li { color: white}
-
-#responsabilidades ul {
-  margin-top: 20px;
 }
 
 footer {
@@ -133,7 +94,7 @@ footer {
   padding: 20px 10% 10px !important;
 }
 
-#inscreva-se{
+.btn__sample--scale-up{
   width: 45%;
   height: auto;
   position: absolute;
@@ -142,7 +103,7 @@ footer {
   transform: translateX(-50%);
   transition: all .25s ease;
 }
-#inscreva-se:hover {
+.btn__sample--scale-up:hover {
   transform: translateX(-50%) scale(1.1);
   filter: brightness(2);
 }
